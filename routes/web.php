@@ -21,6 +21,9 @@ Route::get('/', function () {
 Route::get('/test', function () {
     return view('layout.index');
 });
+Route::get('/dashboard2', function () {
+    return view('dashboard2');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
